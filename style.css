@@ -1,5 +1,9 @@
-
-.riga:after{
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.riga:after, .tabellone:after{
   content:"";
   display:table;
   clear:both;
@@ -10,9 +14,26 @@
   border: 1px solid black;
   float: left;
 }
-.green{
+.green, .puntiVer{
   background-color: green;
 }
-.red{
+.red, .puntiRos{
   background-color: red;
+}
+.tabellone{
+  width: 200px;
+  height: 100px;
+}
+.puntiVer, .puntiRos{
+  width: 100px;
+  height: 100px;
+  float: left;
+  border: 2px solid yellow;
+}
+.puntiVer p, .puntiRos p{
+  font-size: 40px;
+  color: white;
+  font-weight:bold;
+  text-align: center;
+  line-height: 100px;
 }
