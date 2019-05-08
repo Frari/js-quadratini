@@ -1,0 +1,18 @@
+
+.riga:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+.quadrato, .quadrato1{
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  float: left;
+}
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+}
